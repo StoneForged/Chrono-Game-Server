@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdlwsiyvrs1bo"]
+
+[ext_resource type="Script" path="res://Gamestate.gd" id="1_cjty8"]
+[ext_resource type="Script" path="res://Card Scripts/121.gd" id="1_pxa0y"]
+
+[node name="Gamestate" type="Node"]
+script = ExtResource("1_cjty8")
+
+[node name="121 1 2" type="Node" parent="."]
+script = ExtResource("1_pxa0y")
+
+[node name="Node" type="Node" parent="121 1 2"]
+
+[connection signal="tree_entered" from="121 1 2" to="121 1 2" method="_on_tree_entered"]

@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://iiponwko1lo8"]
+
+[ext_resource type="Script" path="res://Gamestate.gd" id="1_uwuq7"]
+
+[node name="Node" type="Node"]
+
+[node name="Node" type="Node" parent="."]
+script = ExtResource("1_uwuq7")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Node"]
+offset_right = 1150.0
+offset_bottom = 607.0
+
+[node name="TextEdit" type="TextEdit" parent="Node"]
+offset_left = 1.0
+offset_top = 610.0
+offset_right = 1151.0
+offset_bottom = 649.0
+scroll_fit_content_height = true
+caret_blink = true

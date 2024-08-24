@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdlwsiyvrs1bo"]
+
+[ext_resource type="Script" path="res://Card Scripts/121.gd" id="1_pxa0y"]
+
+[node name="1211" type="Node"]
+script = ExtResource("1_pxa0y")
+
+[connection signal="ready" from="." to="." method="_on_ready"]
